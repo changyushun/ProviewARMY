@@ -1,0 +1,27 @@
+﻿</html>
+<head>
+    <title></title>
+    <style type="text/css">
+        font{line-height:normal;}
+    </style>
+</head>
+<body> 
+        <table align="left" >
+            <tr>
+                <td colspan=5>
+                    <font color="#333333" size="3">您好，本訊息為團體報進負責人變更團體報進時，<br />
+        所設定發送之通知，下列是您這變更消報進的資訊。國軍基本體能鑑測網 敬上。</font>
+                </td>    
+            </tr>
+            <tr>
+                <td colspan=5>
+                    <li>原鑑測日期: %olddate%</li>
+                    <li>原鑑測地點: %oldlocation%</li>
+		    <li>新鑑測日期: %newdate%</li>
+                    <li>新鑑測地點: %newlocation%</li>	
+                    <li>鑑測人數: %total%</li>
+                </td>
+            </tr>
+        </table>
+</body>
+</html>

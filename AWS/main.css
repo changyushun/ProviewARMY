@@ -1,0 +1,266 @@
+﻿body 
+{
+     
+}
+.content_div
+{
+    width:812px; height:220px; float:inherit
+    }
+    
+.content_div_protal
+{
+    width:812px; height:550px; float:inherit
+    }   
+    
+.content_div_protal_info
+{
+    width:812px; float:inherit
+    }    
+    
+.head_back_index
+{
+    width: 812px;height:20px; float:inherit; text-align:left; font-size: 12px
+    }
+.head_div
+{
+    width: 812px;height:20px; float:inherit; text-align:left; font-size: 12px
+    }
+.head_space_div
+{
+    width: 812px;height: 136px; float:inherit; background-image: url('images/top_pic221222.jpg');        
+        }
+.head_space_div1
+{
+    width: 1012px;height: 136px; float:inherit; background-image: url('images/top_pic221222.jpg');
+        }
+.content_left_div
+{
+    width: 380px;height: 220px; border:1px solid #C0C0C0; float:left
+    }
+.context_left_div_protal
+{
+	width: 140px; height:100%; border:1px solid #C0C0C0; float:left; font-family:微軟正黑體; font-size:14px; font-weight:bold;
+	}  
+
+.context_left_div_protal_info
+{
+	width: 140px; height:550px; border:1px solid #C0C0C0; float:left; font-family:微軟正黑體; font-size:14px; font-weight:bold;
+	}
+		 
+.content_left_top
+{
+    width: 100%; height: 20px ; border-style: none none solid none; border-width: 1px; border-color: #C0C0C0 ; font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:left
+    }    
+.content_left_bottom
+{
+    width: 100%; height: 220px 
+    }  
+    
+    
+.content_center_div
+{
+    width: 20px;height: 220px; float:left
+    }
+    
+.content_right_div
+{
+    width: 380px;height: 220px; border:1px solid #C0C0C0 ;float:right
+    }
+.content_right_div_protal
+{
+    width: 650px;height:100%; border:1px solid #C0C0C0 ;float:right; font-family:微軟正黑體; font-size:14px; font-weight:bold; text-align:left; 
+    }
+
+.content_right_div_protal_info
+{
+    width: 650px;height:100%; border:1px solid #C0C0C0 ;float:right; font-family:微軟正黑體; font-size:14px; font-weight:bold; text-align:left; 
+    }    
+    
+.content_right_top
+{
+    width: 100%; height: 20px ; border-style: none none solid none; border-width: 1px; border-color: #C0C0C0  ;font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:left
+    }
+.content_right_bottom
+{
+    width: 100%; height: 220px; text-align:center
+    }
+.td_left
+{
+    width: 140px; height: 20px; font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:right
+    }
+.td_right
+{
+    width: 240px; height:20px; text-align:left
+    }
+.td_space_left
+{
+}
+.td_space_right
+{
+    width: 240px; height:10px; font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:left
+    }
+.td_right_registry
+{
+    width: 380px; height:20px; font-family: 微軟正黑體; font-size: 14px;text-align:left
+    }
+
+.buttom_main
+{
+    font-size: 9pt;
+	line-height: 200%;
+	border: 0;
+	height: 53px;
+	width: 130px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	cursor: hand;
+	text-decoration:none;
+    background-image: url('images/btn_yellow.gif');
+    background-color:#edf5ff;
+    }
+ 
+ .buttom_main
+{
+    font-size: 9pt;
+	line-height: 200%;
+	border: 0;
+	height: 48px;
+	width: 130px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	cursor: hand;
+	text-decoration:none;
+    background-image: url('images/btn_yellow.gif');
+    background-color:#edf5ff;
+    }
+    
+.buttom_grey
+{
+    font-size: 9pt;
+	line-height: 200%;
+	border: 0;
+	height: 53px;
+	width: 130px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	cursor: hand;
+	text-decoration:none;
+    background-image: url('images/btn_grey.gif');
+    background-color:#edf5ff;
+    }
+    
+.Order_Section_tr1_td1
+{
+    font-family: 微軟正黑體; 
+    font-size: 14px; 
+    font-weight: bold; 
+    border-collapse:collapse; 
+    background-color:#eeeeee; 
+    vertical-align:top; 
+    border-style:solid solid none solid; 
+    border-width: 1px; 
+    border-color:#cccccc; 
+    padding:7px; 
+    padding-bottom:7px; 
+    padding-left:7px; 
+    padding-right:7px; 
+    padding-top:7px  
+    }
+    
+.Order_Section_tr1_td2
+{
+    font-family: 微軟正黑體; 
+    font-size: 14px; 
+    font-weight: bold; 
+    border-collapse:collapse; 
+    vertical-align:top; 
+    border-style:solid solid none none ; 
+    border-width: 1px; 
+    border-color:#cccccc; 
+    padding:7px; 
+    padding-bottom:7px; 
+    padding-left:7px; 
+    padding-right:7px; 
+    padding-top:7px
+    } 
+       
+.Order_Section_tr2_td1
+{
+    width:100px; 
+    font-family: 微軟正黑體; 
+    font-size: 14px; 
+    font-weight: bold; 
+    border-collapse:collapse; 
+    background-color:#eeeeee; 
+    vertical-align:middle; 
+    border-style:solid solid solid solid; 
+    border-width: 1px; 
+    border-color:#cccccc; 
+    padding:7px; 
+    padding-bottom:7px; 
+    padding-left:7px; 
+    padding-right:7px; 
+    padding-top:7px
+    }
+    
+.Order_Section_tr2_td2
+{
+    font-family: 微軟正黑體; 
+    font-size: 14px; 
+    font-weight: bold; 
+    border-collapse:collapse; 
+    vertical-align:middle; 
+    border-style:solid solid solid none; 
+    border-width: 1px; 
+    border-color:#cccccc; 
+    padding:7px; 
+    padding-bottom:7px; 
+    padding-left:7px; 
+    padding-right:7px; 
+    padding-top:7px
+    }
+    
+.Order_Section_tr3_td1
+{
+    width:100px; 
+    font-family: 微軟正黑體; 
+    font-size: 14px; 
+    font-weight: bold; 
+    border-collapse:collapse; 
+    background-color:#eeeeee; 
+    vertical-align:middle; 
+    border-style:solid solid none solid; 
+    border-width: 1px; 
+    border-color:#cccccc; 
+    padding:7px; 
+    padding-bottom:7px; 
+    padding-left:7px; 
+    padding-right:7px; 
+    padding-top:7px 
+    }    
+    
+.Order_Section_tr3_td2
+{
+    font-family: 微軟正黑體; 
+    font-size: 14px; 
+    font-weight: bold; 
+    border-collapse:collapse; 
+    vertical-align:middle; 
+    border-style:solid solid none none; 
+    border-width: 1px; 
+    border-color:#cccccc; 
+    padding:7px; 
+    padding-bottom:7px; 
+    padding-left:7px; 
+    padding-right:7px; 
+    padding-top:7px
+    }    
+        
+    a.export, a.export:visited {
+    text-decoration: none;
+    color:#000;
+    background-color:#ddd;
+    border: 1px solid #ccc;
+    padding:1px;
+
+}

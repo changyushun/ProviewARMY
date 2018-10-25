@@ -1,0 +1,41 @@
+﻿</html>
+<head>
+    <title></title>
+    <style type="text/css">
+        font{line-height:normal;}
+    </style>
+</head>
+<body> 
+        <table align="left" >
+            <tr>
+                <td colspan=5>
+                    <font color="#333333" size="3">您好，本訊息為團體報進負責人完成團體報進時，<br />
+        所設定發送之通知，敬請參考。國軍基本體能鑑測網 敬上。</font>
+                </td>    
+            </tr>
+            <tr>
+                <td colspan=5>
+                    <li>鑑測日期: %date%</li>
+                    <li>鑑測地點: %location%</li>
+                    <li>鑑測人數: %total%</li>
+                    <li>受測人員清單:</li>
+                </td>
+            </tr>
+            <tr>
+               <td style="width:80px">姓名</td>
+               <td style="width:100px">身份證</td>
+               <td style="width:80px">出生年月日</td>
+               <td style="width:80px">軍階代碼</td>
+               <td style="width:100px">e-mail</td>
+            </tr>
+            %detail%
+             <tr>
+                <td colspan=5>
+                    <li>
+                    <font color="#333333" size="3">提醒您，鑑測當日請記得攜帶個人身分證與軍人身分證。</font>
+                    </li>
+                </td>    
+            </tr>
+        </table>
+</body>
+</html>

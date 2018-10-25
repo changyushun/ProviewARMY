@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="index.aspx" title="首頁"  description="首頁">
+        <siteMapNode url="HQ_SchMag.aspx" title="鑑測站行事曆"  description="鑑測站行事曆" />
+        <siteMapNode url="HQ_MagAccMag.aspx" title="帳號管理者"  description="帳號管理者" />
+        <siteMapNode url="HQ_ProfileMag.aspx" title="國軍單位資料"  description="國軍單位資料" />
+        <siteMapNode url="HQ_LinkRefMag.aspx" title="相關連結"  description="相關連結" />
+        <siteMapNode url="HQ_LogView.aspx" title="事件記錄檢視"  description="事件記錄檢視" />
+        <siteMapNode url="HQ_FileManage.aspx" title="文件區維護"  description="文件區維護" />
+        <siteMapNode url="Reporting.aspx" title="成績統計"  description="成績統計" />
+      <siteMapNode url="OverDue.aspx" title="逾期處理"  description="逾期處理" />
+        <siteMapNode url="Pro.aspx" title="設定個人資訊"  description="設定個人資訊" />
+      <siteMapNode url="HQ_UserAccMag.aspx" title="進階使用者"  description="進階使用者" />
+      <siteMapNode url="BatchAccMag.aspx" title="批次帳號維護"  description="批次帳號維護" />
+      <siteMapNode url="CheckAdvancedUser.aspx" title="團報管理者審核"  description="團報管理者審核" />
+      <siteMapNode url="TeamScore.aspx" title="團體報進成績"  description="團體報進成績" />
+      <siteMapNode url="HQ_ViewTeamPlayer.aspx" title="生日查詢" description="生日查詢"/>
+      <siteMapNode url="SearchScore.aspx" title="成績查詢"  description="成績查詢" />
+      <siteMapNode url="SelfReserver.aspx" title="基本項目報進"  description="基本項目報進">
+        <siteMapNode url="SelfReverserChange.aspx" title="變更報進" description="變更報進" />
+        <siteMapNode url="SelfReverserCancel.aspx" title ="刪除報進" description="刪除報進" />
+      </siteMapNode>
+      <siteMapNode url="ReplaceItemReserver.aspx" title="替代項目報進"  description="替代項目報進">
+        <siteMapNode url="ReplaceItemReserverChange.aspx" title="變更報進" description="變更報進" />
+        <siteMapNode url="ReplaceItemReserverCancel.aspx" title ="刪除報進" description="刪除報進" />
+      </siteMapNode>
+      <siteMapNode url="RepairTest.aspx" title="申請補測報進"  description="申請補測報進">
+        <siteMapNode url="RepairTestChange.aspx" title="變更報進" description="變更報進" />
+        <siteMapNode url="RepairTestCancel.aspx" title="刪除報進" description="刪除報進" />
+      </siteMapNode>
+      <siteMapNode url="SelfScore.aspx" title="個人成績"  description="個人成績" />
+      <siteMapNode url="Suggestion.aspx" title="意見區"  description="意見區" />
+      <siteMapNode url="Discussion.aspx" title="討論區"  description="討論區" />
+      <siteMapNode url="Pro_Player.aspx" title="設定個人資訊"  description="設定個人資訊" />
+      <siteMapNode url="HQ_TeamReserve.aspx" title="團體報進"  description="團體報進">
+            <siteMapNode url="HQ_TeamReserveChange.aspx" title="變更報進" description="變更報進" />
+        <siteMapNode url="HQ_TeamReserverCancel.aspx" title ="刪除報進" description="刪除報進" />
+      </siteMapNode>
+      <siteMapNode url="HQ_Bulletin.aspx" title="最新消息管理"  description="最新消息管理" />
+      <siteMapNode url="HQ_Suggestion.aspx" title="意見管理"  description="意見管理" />
+      <siteMapNode url="HQ_Discuss.aspx" title="討論區管理"  description="討論區管理" />
+      <siteMapNode url="HQ_Oversea.aspx" title="海外人員成績管理"  description="海外人員成績管理" />
+      <siteMapNode url="HQ_CenterInformation.aspx" title="鑑測站資訊管理"  description="鑑測站資訊管理" />
+      <siteMapNode url="FileDownload.aspx" title="文件下載"  description="文件下載" />
+      <siteMapNode url="CenterInforView.aspx" title="鑑測站交通資訊"  description="鑑測站交通資訊" />
+      <siteMapNode url="RelatedLink.aspx" title="相關連結"  description="相關連結" />
+      <siteMapNode url="HQ_ReSetPassword.aspx" title="重設密碼"  description="重設密碼" />
+      <siteMapNode url="DeleteArtificialScore.aspx" title="刪除人工鑑測成績"  description="刪除人工鑑測成績" />
+      <siteMapNode url="HQ_Contact.aspx" title="設定聯絡資訊"  description="設定聯絡資訊" />
+      <siteMapNode url="108_Data_Update.aspx" title="資料查詢及異動"  description="資料查詢及異動" />
+    </siteMapNode>
+</siteMap>

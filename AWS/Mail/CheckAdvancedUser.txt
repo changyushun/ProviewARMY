@@ -1,0 +1,35 @@
+﻿</html>
+<head>
+    <title></title>
+    <style type="text/css">
+        font{line-height:normal;}
+    </style>
+</head>
+<body> 
+        <table align="left" >
+            <tr>
+                <td colspan=5>
+                    <font color="#333333" size="3">您好，您的申請已經審核通過，<br />
+系統已經幫您派發一組帳號與密碼，請妥善保存帳號與密碼。國軍基本體能鑑測網 敬上。</font>
+                </td>    
+            </tr>
+	    <tr>
+                <td colspan=5>
+                    <li>帳號: %account%</li>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=5>
+                    <li>密碼: %password%</li>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=5>
+                    <li>
+                    <font color="#333333" size="3">提醒您，登入系統後請再次變更新密碼。</font>
+                    </li>
+                </td>    
+            </tr>
+        </table>
+</body>
+</html>

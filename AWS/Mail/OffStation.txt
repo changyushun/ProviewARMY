@@ -1,0 +1,33 @@
+﻿</html>
+<head>
+    <title></title>
+    <style type="text/css">
+        font{line-height:normal;}
+    </style>
+</head>
+<body> 
+        <table align="left" >
+            <tr>
+                <td colspan=5>
+                    <font color="#333333" size="3">您好，本訊息為鑑測中心臨時關站時，系統自動取消您原有之報名，所設定發送之通知。<br />
+                下列是您原始的報名資訊及關站原因，敬請參考。國軍基本體能鑑測網 敬上。</font>
+                </td>    
+            </tr>
+            <tr>
+                <td colspan=5>
+		            <li>關站原因: %reason%</li>
+		            <li>身份證字號: %id%</li>
+                    <li>鑑測日期: %date%</li>
+                    <li>鑑測地點: %location%</li>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=5>
+                    <li>
+                    <font color="#333333" size="3">提醒您，若未完成年度體能鑑測，請記得再次報名，謝謝。</font>
+                    </li>
+                </td>    
+            </tr>
+        </table>
+</body>
+</html>

@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<script type="text/javascript">
+//    $(function() {
+//    $('#Button1').click(function() {
+//        window.open('CenterBalance.aspx', '', 'toolbar=no,width=630,height=580,resizable=yes');
+//        });
+//    });
+</script>
+<style type="text/css">
+    .auto-style1 {
+        height: 18px;
+    }
+</style>
+<link id="Login_css" rel="stylesheet" href="MasterPage.css" type="text/css" />
+    <title>國軍基本體能鑑測網</title>
+    <asp:ContentPlaceHolder id="head" runat="server">  
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <center>
+        <asp:HiddenField ID="OP_Value" runat="server" />
+    <div style="height: 100%;width:1024px" > 
+        <div style="height: 100%; left: auto; float: left; width: 5%;">
+        </div>
+<div style="height: 798px; left: auto; float: left; width: 100%; margin-right: 0px;">
+    <div align="left" style="font-size: 12px; margin-bottom:5px" class="auto-style1">
+        <a href="index.aspx" style="color:#0000FF">: : : 回首頁</a> | <a href="FileDownload.aspx" style="color:#0000FF">文件下載</a> | <a href="CenterInforView.aspx" style="color:#0000FF">鑑測站交通資訊</a>
+        | <a href="RelatedLink.aspx" style="color:#0000FF">相關連結</a> | <a href="javascript: void(0)" style="color:#0000FF"   onclick="window.open('Experience.htm', '', 'toolbar=no,width=1100,height=1200,resizable=yes,scrollbars=yes');" >單機版體驗區</a> |
+         <a href="106_Check_Score.aspx" style="color:#0000FF" target="_blank">成績單驗證</a> |
+        <input id="checkbalance" type="button" value="即時查詢鑑測站報進人數" onclick="window.open('CenterBalance.aspx', '', 'toolbar=no,width=420,height=200,resizable=yes');"  /></div>
+        <div align="left">
+            <img id="image" alt="result" src="images/1270801164_236.jpg">
+        </div>
+        <%-- User Site Map & Login Status Block--%>
+        <div align="left" style="height: 23px; font-size: 12px; margin-top:5px">
+            <asp:Label ID="userInfo" runat="server" Text="Label" ></asp:Label>
+        </div>
+        <%--manu block--%>
+        <div align="left" style="height: 54px; float:inherit; background-image: url('images/1270806715.jpg');  width: 100%; table-layout: auto">
+            <asp:Menu ID="Menu1" runat="server" CssClass="menubar" Orientation="Horizontal" OnMenuItemClick="Menu1_MenuItemClick" Height="30px"></asp:Menu>
+            <asp:Menu ID="Menu2" runat="server" CssClass="menubar" Orientation="Horizontal" OnMenuItemClick="Menu1_MenuItemClick" Height="30px"></asp:Menu>
+        </div>
+         <div align="left" style="height: 27px; float:inherit; width: 100%; margin-top:5px">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="SiteMapPath1"></asp:SiteMapPath>      
+        </div>
+        <%--Main Page Content--%>
+        <div align="left" style="height: 576px; font-size: 12px; float:left; width: 100%; background-color: #FFFFFF">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        </div> 
+    <%--right block--%>
+    <%--<div align="left" 
+        
+        style="height: 576px; font-size: 12px; float:right; width: 190px; background-image: url('images/background.jpg')">
+
+               <div align="center" 
+                   
+                   style="height: 11px; font-family: 微軟正黑體; font-size: 16px; background-image: url('images/imd28.gif'); width: 190px; margin-top:10px">
+                   
+                </div>
+                <div align="center" 
+                   
+                   
+                   
+                   
+                   style="height: 41px;font-family: 微軟正黑體; font-size: 16px; background-image: url('images/imd30.gif'); width: 190px;" 
+                   class="menubar">
+                    
+                    
+                    <asp:Button ID="logOut" runat="server" Text="登出" onclick="logOut_Click" /><asp:Menu ID="Menu2" runat="server" CssClass="menubar2">
+                    </asp:Menu>
+                    </div>
+                <div align="center" 
+                   style="height: 8px;  font-family: 微軟正黑體; font-size: 16px; background-image: url('images/imd27.gif'); width: 190px;">
+                    
+                </div>
+                <div align="center" 
+                   style="height: 8px;  font-family: 微軟正黑體; font-size: 16px;  width: 190px;">
+                    
+                </div>
+                
+                
+                
+                <div align="center" 
+                   style="background-position: 0px 7px; height: 22px; font-family: 微軟正黑體; font-size: 16px; background-image: url('images/imd28.gif'); width: 190px; background-repeat: no-repeat;">
+                 <div align="center" 
+                   
+                   
+                        style="height: 21px;  font-family: 微軟正黑體; font-size: 16px; background-image: url('images/index_72.gif'); width: 91px;">
+                   
+                   
+                </div>  
+                   
+                </div>
+                <div align="center" 
+                   
+                   
+                   
+                   style="height: 325px;  font-family: 微軟正黑體; font-size: 16px; background-image: url('images/imd30.gif'); width: 190px;">
+                    
+                    <asp:Menu ID="Menu3" runat="server">
+                    </asp:Menu>      
+                    
+                </div>
+                <div align="center" 
+                   style="height: 8px;font-family: 微軟正黑體; font-size: 16px; background-image: url('images/imd27.gif'); background-repeat:no-repeat; width:190px">
+                    
+                </div>
+
+    </div>--%>
+    <%--footer--%>
+    <div style="float:left; width:100%; font-size: 12px;">
+        
+    </div>
+    
+        </div>
+
+    </div> 
+    </center>
+    
+    
+    
+    
+        
+    
+    </form>
+</body>
+</html>

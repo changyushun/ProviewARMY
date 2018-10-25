@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>重新導向頁面</title>
+<script type="text/javascript">
+    function showMsg() {
+        var cnt = 5;
+        var sslUrl = ("Login.aspx");
+        document.getElementById("lnkSSL").href = sslUrl;
+        setInterval(function () {
+            if (--cnt >= 0)
+                document.getElementById("spnCountDown").innerHTML = cnt;
+            else
+                location.href = sslUrl;
+        }, 1000);
+    }
+</script>
+<style type="text/css">
+div 
+{ 
+    background-color: #cccccc; border: 2px solid black; 
+    padding: 5px; width: 300px; line-height: 150%;
+    font-size: 11pt;
+}
+#spnCountDown { color: red; padding: 4px; }
+</style>
+</head>
+<body onload="showMsg();">
+<div>
+重設密碼成功!<br />
+可點選<a id="lnkSSL" style="color:#0000FF"> 這裡 </a>直接回到登入頁面。<br />
+或請稍候<span id="spnCountDown">5</span>秒，
+由系統為您自動轉接。
+</div>
+</body>
+</html>

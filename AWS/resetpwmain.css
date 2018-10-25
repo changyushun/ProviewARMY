@@ -1,0 +1,75 @@
+﻿body 
+{
+     
+}
+.content_div
+{
+    width:812px; height:260px; float:inherit
+    }
+.head_back_index
+{
+    width: 812px;height:20px; float:inherit; text-align:left; font-size: 12px
+    }
+.head_div
+{
+    width: 812px;height:20px; float:inherit; text-align:left; font-size: 12px
+    }
+.head_space_div
+{
+    width: 812px;height: 136px; float:inherit; background-image: url('images/top_pic221222.jpg')        
+        }
+.content_left_div
+{
+    width: 380px;height: 300px; border:1px solid #C0C0C0; float:left
+    }
+.content_left_top
+{
+    width: 100%; height: 20px ; border-style: none none solid none; border-width: 1px; border-color: #C0C0C0 ; font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:left
+    }    
+.content_left_bottom
+{
+    width: 100%; height: 280px; margin-top:5px; margin-left:7px
+    }  
+    
+    
+.content_center_div
+{
+    width: 20px;height: 220px; float:left
+    }
+    
+.content_right_div
+{
+    width: 380px;height: 300px; border:1px solid #C0C0C0 ;float:right
+    }
+.content_right_top
+{
+    width: 100%; height: 20px ; border-style: none none solid none; border-width: 1px; border-color: #C0C0C0  ;font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:left
+    }
+.content_right_bottom
+{
+    width: 100%; height: 220px
+    }
+.td_left
+{
+    width: 140px; height: 20px; font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:right
+    }
+.td_right
+{
+    width: 240px; height:20px; text-align:left
+    }
+.td_space_left
+{
+}
+.td_space_right
+{
+    width: 240px; height:10px; font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:left
+    }
+.td_right_registry
+{
+    width: 380px; height:20px; font-family: 微軟正黑體; font-size: 14px;text-align:left
+    }
+.td_left_one
+{
+    width: 100%; height: 20px; font-family: 微軟正黑體; font-size: 14px; font-weight: bold; text-align:left;
+    margin-top:5px; margin-left:5px
+    }
