@@ -11,6 +11,10 @@
             <ContentTemplate>
                 <div style="margin-top: 5px; margin-bottom: 5px; vertical-align: bottom; height: 22px;">
 
+                    <asp:Label ID="Label1" runat="server" Text="IP檢查結果："></asp:Label>
+                    <asp:Label ID="lab_pingIpResult" runat="server" Text=""></asp:Label>
+                    <asp:TextBox ID="txb_Ip" runat="server" Text="192.168.0.6"></asp:TextBox>
+                    <asp:Button ID="btn_PingIp" runat="server" Text="Ping IP" OnClick="btn_PingIp_Click" />
                 </div>
             </ContentTemplate>
         </ajaxToolkit:TabPanel>
