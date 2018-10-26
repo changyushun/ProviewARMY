@@ -86,7 +86,10 @@ public partial class MasterPage : System.Web.UI.MasterPage
                     MenuItem i14 = new MenuItem("資料查詢及異動", "", "images/nav_break.gif");
                     i14.NavigateUrl = "~/108_Data_Update.aspx";
                     Menu2.Items.Add(i14);
-                    
+                    MenuItem i15 = new MenuItem("伺服器狀態", "", "images/nav_break.gif");
+                    i15.NavigateUrl = "~/108_ServerStatus.aspx";
+                    Menu2.Items.Add(i15);
+
                 }
                 if (a.Role == ((int)SysSetting.Role.mag_hq).ToString())
                 {

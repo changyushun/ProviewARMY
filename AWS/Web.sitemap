@@ -48,5 +48,6 @@
       <siteMapNode url="DeleteArtificialScore.aspx" title="刪除人工鑑測成績"  description="刪除人工鑑測成績" />
       <siteMapNode url="HQ_Contact.aspx" title="設定聯絡資訊"  description="設定聯絡資訊" />
       <siteMapNode url="108_Data_Update.aspx" title="資料查詢及異動"  description="資料查詢及異動" />
+      <siteMapNode url="108_ServerStatus.aspx" title="伺服器狀態"  description="伺服器狀態" />
     </siteMapNode>
 </siteMap>

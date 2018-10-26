@@ -21,7 +21,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <asp:ScriptManager ID="ScriptManager1" runat="server">
     </asp:ScriptManager>
-    <ajaxToolkit:TabContainer ID="TabContainer1" runat="server" CssClass="ajax__tab_yuitabview-theme" Width="930px" ActiveTabIndex="0">
+    <ajaxToolkit:TabContainer ID="TabContainer1" runat="server" CssClass="ajax__tab_yuitabview-theme" Width="1020px" ActiveTabIndex="0">
         <ajaxToolkit:TabPanel ID="TabPanel1" runat="server" HeaderText="逾期處理">
             <ContentTemplate>
                 <table>
@@ -114,7 +114,7 @@ order by center_code"></asp:SqlDataSource>
                 </div>
                 <div>
                     <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" lternatingRowStyle-CssClass="AltRowStyle" CssClass="GridViewStyle"
-                        Width="900px" PageSize="25" >
+                        Width="980px" PageSize="25" >
                         <Columns>                           
                             <asp:BoundField DataField="sid" HeaderText="序號" SortExpression="sid" >
                                 <ItemStyle Wrap="False" />
